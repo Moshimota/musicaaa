@@ -116,8 +116,9 @@ header{
 }
 .kart{
     margin-top: 25px;
+    margin-right: 90px;
     width: 270px;
-    height: 470px;
+    height: 490px;
     background: rgb(29, 15, 53);
     background: linear-gradient(8deg, rgba(29, 15, 53, 1) 0%, rgba(99, 109, 193, 1) 49%, rgba(187, 130, 219, 1) 100%);
     padding: 20px 25px;
@@ -360,32 +361,147 @@ footer{
 }
 @media (max-width: 576px) {
     .nft {
-        margin-top: 48px;
+        margin-top: 25px;
         font-style: normal;
         font-weight: 600;
-        font-size: 21px;
+        font-size: 17px;
         text-align: center;
         color: #FFFFFF;
     }
     
 .own {
-    margin-left: 27px;
+    margin-left: 17px;
     font-style: normal;
     font-weight: 500;
-    font-size: 9px;
+    font-size: 8px;
     color: #FFFFFF;
+    
+}
+.own p{
+    margin-bottom: 5px;
 }
 .btn1 {
     margin-top: 11px;
     font-style: normal;
     font-weight: 600;
-    font-size: 8px;
+    font-size:5px;
     color: #FFFFFF;
     background: rgb(93, 0, 250);
     background: linear-gradient(90deg, rgba(93, 0, 250, 1) 0%, rgba(215, 11, 202, 1) 100%);
     border: none;
     border-radius: 46px;
     padding: 0px 35px;
-    margin-left: -14px;
+    margin-left: -19px;
+}
+header{
+    background: url(./img/master\ clas.png);  
+   padding-bottom: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.feat{
+    padding-left: 100px;
+    color: beige;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   font-size: 17px;
+}
+.buy{
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -55px;
+}
+.view{
+    font-weight: 700;
+    padding: 14px 60px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(125, 63, 125);
+margin-left: 17px;
+margin-bottom: 0;
+}
+
+#lemo{
+    position: absolute;
+    top: 380px;
+    left: 65px;
+}
+#lego{
+    position: absolute;
+    top: 362px;
+    left: 25px;
+}
+.pari{
+    position: absolute;
+    top: 340px;
+    left: 80px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: none;
+}
+
+.kart{
+    margin-top: 25px;
+    width: 295px;
+    height: 425px;
+    background: rgb(29, 15, 53);
+    background: linear-gradient(8deg, rgba(29, 15, 53, 1) 0%, rgba(99, 109, 193, 1) 49%, rgba(187, 130, 219, 1) 100%);
+    padding: 20px 25px;
+    border-radius: 2%;
+    position: relative;
+}
+.human{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.lates{
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#four {
+    
+    padding-left: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.salam{
+    margin-left: -50px;
+}
+img, svg{
+    margin-left: 15px;
+}
+
+.btn3 {
+    padding: 8px 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 46px;
+    background: rgb(93, 0, 250);
+    background: linear-gradient(90deg, rgba(93, 0, 250, 1) 0%, rgba(215, 11, 202, 1) 100%);
+}
+#keyt{
+   margin-bottom: 0px;
 }
 }

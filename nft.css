@@ -787,4 +787,18 @@ color: #232222;
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .btn1 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 175.4%;
+        letter-spacing: 0.02em;
+        color: #F4F4F4;
+        padding: 7px 26px;
+        background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+        box-shadow: 15px 15px 35px rgb(226 142 15 / 18%);
+        border-radius: 10px;
+        border: none;
+        margin-top: 48px;
+        margin-left: 20px;
+    }
 }
